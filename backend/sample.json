@@ -1,0 +1,126 @@
+{
+	
+	"st": "x+66300-025200",
+	"position": {
+		"type": "Point",
+		"coordinates": [{
+			"numberDouble": "-25.2"
+		}, {
+			"numberDouble": "66.3"
+		}]
+	},
+	"elevation": {
+		"numberInt": "9999"
+	},
+	"callLetters": "TFBY",
+	"qualityControlProcess": "V020",
+	"dataSource": "4",
+	"type": "FM-13",
+	"airTemperature": {
+		"value": {
+			"numberDouble": "0.4"
+		},
+		"quality": "1"
+	},
+	"dewPoint": {
+		"value": {
+			"numberDouble": "999.9"
+		},
+		"quality": "9"
+	},
+	"pressure": {
+		"value": {
+			"numberDouble": "1003.6"
+		},
+		"quality": "1"
+	},
+	"wind": {
+		"direction": {
+			"angle": {
+				"numberInt": "40"
+			},
+			"quality": "1"
+		},
+		"type": "N",
+		"speed": {
+			"rate": {
+				"numberDouble": "6.7"
+			},
+			"quality": "1"
+		}
+	},
+	"visibility": {
+		"distance": {
+			"value": {
+				"numberInt": "20000"
+			},
+			"quality": "1"
+		},
+		"variability": {
+			"value": "N",
+			"quality": "9"
+		}
+	},
+	"skyCondition": {
+		"ceilingHeight": {
+			"value": {
+				"numberInt": "7500"
+			},
+			"quality": "1",
+			"determination": "C"
+		},
+		"cavok": "N"
+	},
+	"sections": ["AG1", "AY1", "GF1", "MW1"],
+	"precipitationEstimatedObservation": {
+		"discrepancy": "2",
+		"estimatedWaterDepth": {
+			"numberInt": "0"
+		}
+	},
+	"pastWeatherObservationManual": [{
+		"atmosphericCondition": {
+			"value": "0",
+			"quality": "1"
+		},
+		"period": {
+			"value": {
+				"numberInt": "3"
+			},
+			"quality": "1"
+		}
+	}],
+	"skyConditionObservation": {
+		"totalCoverage": {
+			"value": "05",
+			"opaque": "99",
+			"quality": "1"
+		},
+		"lowestCloudCoverage": {
+			"value": "02",
+			"quality": "1"
+		},
+		"lowCloudGenus": {
+			"value": "00",
+			"quality": "1"
+		},
+		"lowestCloudBaseHeight": {
+			"value": {
+				"numberInt": "1750"
+			},
+			"quality": "1"
+		},
+		"midCloudGenus": {
+			"value": "07",
+			"quality": "1"
+		},
+		"highCloudGenus": {
+			"value": "02",
+			"quality": "1"
+		}
+	},
+	"presentWeatherObservationManual": [{
+		"condition": "02",
+		"quality": "1"
+	}]
+}
